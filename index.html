@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Click Speed Tester</title>
+    <script type="module" crossorigin src="/click-speed-tester/assets/index-CD0vR5VX.js"></script>
+    <link rel="stylesheet" crossorigin href="/click-speed-tester/assets/index-DU0kPiIv.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Click Speed Tester</h1>
+
+      <section class="stats">
+        <div class="stat">
+          <span class="label">Time</span>
+          <span id="time" class="value">5.00s</span>
+        </div>
+        <div class="stat">
+          <span class="label">Clicks</span>
+          <span id="clicks" class="value">0</span>
+        </div>
+        <div class="stat">
+          <span class="label">CPS</span>
+          <span id="cps" class="value">0.00</span>
+        </div>
+        <div class="stat">
+          <span class="label">Best</span>
+          <span id="best" class="value">0.00</span>
+        </div>
+      </section>
+
+      <section class="controls">
+        <button id="start">Start</button>
+        <button id="click" disabled>Click me!</button>
+        <button id="reset">Reset</button>
+      </section>
+
+      <p class="hint">
+        Press Start, then click as fast as you can for 5 seconds.
+      </p>
+    </main>
+
+  </body>
+</html>
